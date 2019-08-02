@@ -10,8 +10,8 @@ end
 
 def current_player(turn)
   if turn % 2 == 0
-    character = "X"
+    return "X"
   else
-    character = "Y"
+    return "Y"
   end
 end
