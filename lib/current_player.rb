@@ -14,4 +14,4 @@ def current_player(turn)
   else
     character = "Y"
   end
-end 
+end
