@@ -5,4 +5,5 @@ def turn_count(board)
       spaces += 1
     end
   end
+  return spaces
 end
