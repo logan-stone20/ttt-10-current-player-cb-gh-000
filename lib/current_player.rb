@@ -5,5 +5,13 @@ def turn_count(board)
       counter += 1
     end
   end
-
+  return counter
 end
+
+def current_player(turn)
+  if turn%2 == 0
+    character = "X"
+  else
+    character = "Y"
+  end
+end 
